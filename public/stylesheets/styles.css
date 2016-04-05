@@ -1,0 +1,540 @@
+/************TEMPLATE*****************/
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+  background-color: #D4FFEB;
+}
+
+body {
+  font-size: 16px;
+  font-family: helvetica;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 420px;
+}
+
+nav {
+  margin: 0;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background-color: #2DA8AB;
+}
+
+.logo {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2rem;
+  color: #FFF;
+  float: left;
+  margin: 0;
+  height: 8vh;
+}
+
+nav ul {
+  list-style: none;
+  /*opacity: 0.8;*/
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  /*overflow: auto;*/
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  display: inline-block;
+  width: 220px;
+  text-align: center;
+  height: 8vh;
+  padding-top: 1rem;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav li:hover {
+  background-color: #3B5F66;
+}
+
+nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+h2 {
+  font: normal normal normal 22px/1.2em 'Noticia Text',serif;
+  word-wrap: break-word;
+  font-weight: bold;
+  text-shadow: 2px 2px #dddddd;
+}
+h1, h3 {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+footer {
+  background-color: #2DA8AB;
+  width: 100%;
+  /*float: right;*/
+  clear: both;
+  margin-bottom: 0;
+  bottom: 0;
+  height: 9vh;
+  /*position: absolute;*/
+  overflow: auto;
+  /*border: solid orange;*/
+
+}
+.footer-index
+{
+  position: absolute;
+}
+.social-media-box{
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-left: 10%;
+}
+
+.social-media {
+  border-radius: 50%;
+  margin-right: 2rem;
+  border: dotted aqua;
+}
+
+copy-rights {
+  margin-top: 5rem;
+  color: white;
+  border: solid red;
+}
+
+/*********************INDEX****************/
+.home {
+  background-image: repeating-linear-gradient( 45deg, #85D5E6 0px, #85D5E6 30px, #71C1D2 30px, #71C1D2 60px );
+  height: 100vh;
+  /*padding: 0;*/
+  /*overflow: auto;*/
+}
+
+.index-container{
+  margin-top: 13vw;
+  /*margin-bottom: 3vh;*/
+  overflow: auto;
+  display: inline;
+  width: 100%;
+  padding: 0;
+  position: absolute;
+
+}
+
+.list-line {
+  overflow: auto;
+  width: 70%;
+  margin-left: 15%;
+  list-style: none;
+  padding: 0;
+  /*display: grid;*/
+}
+
+.image-wrap {
+  /*overflow: auto;*/
+  float: left;
+  margin: 0;
+  margin-right: 3rem;
+}
+
+.home-img {
+  /*position: relative;*/
+    border-radius: 50%;
+    width: 24rem;
+    /*overflow: auto;*/
+ }
+
+.holder {
+  overflow: auto;
+  /*float: right;*/
+  /*width: 40rem;*/
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  position: relative;
+  /*width: 86%;*/
+  margin: 0;
+  padding: 0;
+}
+
+.main-tittle{
+  text-align: left;
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.second-tittle {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+  /*overflow: auto;*/
+}
+
+.bottons{
+  /*width: 100%;*/
+  letter-spacing: 1.4px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.bottons ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bottons li {
+  text-align: center;
+  display: inline-block;
+  width: 8.4rem;
+  height: 8.4rem;
+  /*margin-right: auto;*/
+  padding: 0;
+  margin-top: 2rem;
+  margin-right: 2rem;
+
+}
+.bottons a {
+  text-decoration: none;
+  position: relative;
+  top: 40%;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.F5CB1C {
+  background-color: #F5CB1C;
+  border-radius: 50%;
+}
+
+.F5CB1C:hover {
+    background-color: #F9D74A;
+}
+
+.F305D8 {
+  background-color: #F305D8;
+  border-radius: 50%;
+}
+
+.F305D8:hover {
+    background-color: #F77FF5;
+}
+
+.cielo {
+  background-color: #16DAC9;
+  border-radius: 50%;
+}
+
+.cielo:hover {
+    background-color: #84DED6;
+}
+
+/******************END***********/
+
+
+/*******************PORTFOLIO******************/
+.header-journal {
+  background-image: repeating-linear-gradient( -45deg, #D54A8D, #D54A8D 30px, #E9AFC6 30px, #E9AFC6 60px );
+}
+
+.header-portfolio{
+  background-image: repeating-linear-gradient( 90deg,rgb(153, 216, 101), rgb(153, 216, 101) 30px, rgb(133, 196, 81) 30px, rgb(133, 196, 81) 60px );
+}
+
+.intro-journal {
+  position: relative;
+  top: 12vh;
+}
+.pages-tittle{
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.pages-second-tittle {
+  text-align: center;
+}
+
+
+.main-container {
+  border: solid yellow;
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-top: -9%;
+  z-index: 500;
+  overflow: auto;
+  padding-bottom: 3rem;
+}
+
+.articles-box  {
+  border: solid green;
+  float: left;
+  width: 66.66666667%;
+  box-shadow: 0px 0px 7px #BBBBBB;
+  padding: 0px 30px;
+  background: #FFF;
+  padding-bottom: 3rem;
+}
+
+.content {
+  border: solid #D54A8D;
+  /*height: 27rem;*/
+  display: inline-block;
+  text-align: center;
+  padding: 1.5rem;
+  padding-bottom: 1rem;
+  margin-top: 0;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  border-bottom: 1px solid #D54A8D;
+  width:47%;
+}
+
+.content p {
+  border: solid blue;
+  height: 60%;
+  text-align: left;
+  padding: 1.4rem;
+  margin-bottom: 1.8rem;
+}
+
+
+.see-code {
+  /*margin-top: 40rem;*/
+  border-style: double;
+  padding: .8rem;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #D54A8D;
+  margin: 0;
+
+}
+
+.see-code:hover {
+  color: #027F61;
+  border-color: #027F61;
+}
+
+aside {
+  float: right;
+  background: #fff;
+  padding: 1rem;
+  margin-right: 2rem;
+  width: 26%;
+  margin-bottom: 3rem;
+  box-shadow: 0px 0px 7px #BBBBBB;
+}
+
+.about {
+  top: 26rem;
+  margin: 3%;
+  border: solid purple;
+  text-align: center;
+}
+
+.about p {
+  border: solid green;
+  text-align: left;
+
+}
+
+.about img {
+  border-radius: 50%;
+  width: 7rem;
+}
+
+h4 {
+    color: #027F61;
+    font-weight: 600;
+    font-family: 'Playfair Display';
+    margin: 10px 0px 0px;
+    font-size: 17px;
+
+}
+
+h4, h5 {
+  text-align: center;
+  border: solid red;
+  margin-top: .3rem;
+}
+
+h6 {
+  border: solid lime;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  margin: 0;
+}
+
+.tags {
+  margin: 3%;
+  width: 26%;
+}
+
+.tagcloud a, .tagcloud a:visited {
+  padding: 8px 10px;
+  background: #02CC9C;
+  color: #FFF;
+  text-transform: uppercase;
+  margin: 0px 10px 10px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  text-decoration: none;
+}
+.tagcloud a:hover, .tagcloud a:focus {
+  background: #fff;
+  color: #000;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+/***********************JOURNAL********/
+.portafolio {
+  border: solid yellow;
+width: 100%;
+}
+
+.portafolio article{
+  border: solid green;
+  margin-bottom: 3rem;
+  overflow: auto;
+  height: 350px;
+  padding: 4rem;
+}
+
+.one-entry {
+  border: solid
+
+}
+
+.text-block{
+  border: solid red;
+  width: 60%;
+  float: left;
+}
+
+.portafolio h2 {
+  border: solid green;
+  margin: 0;
+}
+
+.img-portafolio {
+  width: 20%;
+  border: solid blue;
+  float: right;
+  position: relative;
+}
+
+.portafolio p {
+  border: solid blue;
+}
+/**************END*************/
+
+.journal > article {
+  border: solid rgba(105,0,0,1) 6px;
+  display: inline-block;
+  width: 55%;
+  padding: 20px;
+}
+
+
+/***************ABOUT***************/
+.header-about {
+
+  background-image: repeating-linear-gradient( 90deg, rgb(214, 229, 100), rgb(214, 229, 100) 30px, rgb(194, 209, 80) 30px, rgb(194, 209, 80) 60px );
+}
+
+.about-page {
+ margin: 3%;
+  border: solid purple;
+  text-align: center;
+}
+
+.about-page p {
+  border: solid green;
+  text-align: left;
+
+}
+
+.about-page img {
+  border-radius: 50%;
+  width: 17rem;
+  z-index: 600;
+  /*margin-top: 0;*/
+}
+/***************END***************/
+
+
+
+/**************MADLIBS***************/
+
+code {
+  background: #ffffff;
+  overflow:auto;width:auto;
+  border:solid gray;
+  border-width:.1em .1em .1em .8em;
+  padding:.2em .6em;
+  width: 35%;
+  float: right;
+
+}
+pre {
+  margin: 0;
+  line-height: 125%;
+  width: 35%;
+
+}
+.lines{
+  margin-right: 14px;
+  color: gray;
+}
+
+.puts {
+  color: #007020;
+}
+
+.put {
+  color: #007020;
+  font-weight: bolder;
+  font-family: courier;
+}
+
+.string{
+  background-color: #fff0f0;
+}

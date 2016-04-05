@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio - Melissa Jimison</title>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="css" href="stylesheets/styles.css">
+</head>
+<body>
+
+  <header class="header-portfolio">
+    <nav>
+      <ul>
+        <a class="logo" href="file:///Users/melissajimison/Documents/c5/projects/Static-Site/portfolio.html">Melissa Jimison</a>
+        <li><a href="file:///Users/melissajimison/Documents/c5/projects/Static-Site/portfolio.html">Ruby Portfolio</a></li>
+        <li><a href="file:///Users/melissajimison/Documents/c5/projects/Static-Site/code-journal.html">Code Journal</a></li>
+        <li><a href="file:///Users/melissajimison/Documents/c5/projects/Static-Site/about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <div class="intro-journal">
+    <h1 class="pages-tittle"> Ruby Portafolio </h1>
+    <h2 class="pages-second-tittle">Check out the programs created at Ada Developer Academy!!</h2>
+    </div>
+  </header>
+
+  <section class="main-container" >
+
+    <%= yield %>
+
+  </section>
+
+    <aside>
+      <article class="about">
+        <figure>
+          <img src="images/about.jpg" alt="Melissa Jimison" />
+        </figure>
+        <h4>Melissa Jimison</h4>
+        <h5>Ada Student</h5>
+        <h6>About</h6>
+        <p>Former Colombian journalist aspiring programmer and universe conquer. A lover of Ruby for now. In the past two year cultural analizer full time. Specialist in blowing people's mind and in 'anintentional' ratial comments </p>
+      </article>
+    </aside>
+
+    <aside>
+      <h6>TAGS</h6>
+      <article class="tagcloud">
+        <a href="#" style="font-size: 12pt;">variables</a>
+        <a href="#" style="font-size: 13pt;">classes</a>
+        <a href="#" style="font-size: 13pt;">built in methods</a>
+        <a href="#" style="font-size: 10pt;">interpolation</a>
+        <a href="#" style="font-size: 11pt;">hashes</a>
+        <a href="#" style="font-size: 11pt;">strings</a>
+        <a href="#" style="font-size: 11pt;">methods</a>
+        <a href="#" style="font-size: 10pt;">concatenation</a>
+        <a href="#" style="font-size: 13pt;">arrays</a>
+        <a href="#" style="font-size: 10pt;">enumerables</a>
+      </article>
+    </aside>
+  </section>
+
+
+  <footer>
+    <figure class="social-media-box">
+      <a href="https://www.facebook.com/MelissaJimison"> <img class="social-media" src="images/facebook-logo.jpg" alt="Facebook logo" target="_blank">
+      </a>
+
+      <a href="https://twitter.com/melissajimison"> <img class="social-media" src="images/twitter-logo.jpg" alt="Twitter logo" target="_blank">
+      </a>
+
+      <a href="https://instagram.com/melissajimison"> <img class="social-media" src="images/instagram-logo.jpg" alt="Instagram logo" target="_blank">
+      </a>
+
+      <a href="hhttps://co.linkedin.com/in/melijimison"> <img class="social-media" src="images/linkedin-logo.jpg" alt="Linkedin logo" target="_blank">
+      </a>
+
+
+    </figure>
+    <copy-rights>
+      © 2016 Copyright, Melissa Jimison - All rights reserved.
+    </p>
+  </copy-rights>
+</footer>
+</body>
+</html>
